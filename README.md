@@ -1,16 +1,16 @@
 # <ins>How do you make a Circle in CSS?</ins>
 First you make a section with an equal width and height property. It would also be best to add a background color or border so it is visible. Next you would give it a border radius of 50% to round the corners of the square into a circle.
-What is Z-index?
+# <ins>What is Z-index?</ins>
 Z-index allows you to assign the order in which things appear on the page 3 dimensionally. For example in the case of over-lapping objects, you would assign a higher index to the object that you want to appear to be on top.
-What is a Vendor Prefix and What is it's Purpose?
+# <ins>What is a Vendor Prefix and What is it's Purpose?</ins>
 CSS Vendor prefixes (or browser prefixes) are a way for browsers to give access to new CSS features not yet considered stable. By using prefixes, we can use these newer CSS features with the browsers that support them — instead of waiting for all browsers to catch up.
-What is the difference between CSS Grid and Flexbox?
+# <ins>What is the difference between CSS Grid and Flexbox?</ins>
 Css Grid allows you to customize a grid that will best fit the desired layout of your webpage. CSS Flexbox uses design principles based on the relativity of all of the “boxes” on your page to larger parent boxes.
-How might you Speed Up a Slow App? hint Google Lighthouse in Chrome Developer Tools....
+# <ins>How might you Speed Up a Slow App?</ins> hint Google Lighthouse in Chrome Developer Tools....
 Use Stateless components, keep components small, utilize props and prop-types,memoization
-What is CRUD?
+# <ins>What is CRUD?
 In computer programming, create, read, update, and delete are the four basic operations of persistent storage. CRUD is also sometimes used to describe user interface conventions that facilitate viewing, searching, and changing information using computer-based forms and reports.
-What is OOP?
+# <ins>What is OOP?
 Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic.
 
 
