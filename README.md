@@ -1,4 +1,4 @@
-# _How do you make a Circle in CSS?_
+# <ins>How do you make a Circle in CSS?</ins>
 First you make a section with an equal width and height property. It would also be best to add a background color or border so it is visible. Next you would give it a border radius of 50% to round the corners of the square into a circle.
 What is Z-index?
 Z-index allows you to assign the order in which things appear on the page 3 dimensionally. For example in the case of over-lapping objects, you would assign a higher index to the object that you want to appear to be on top.
