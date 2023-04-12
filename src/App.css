@@ -1,38 +1,83 @@
 .App {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 2fr;
+  grid-template-areas: 
+  "sidebar reviews rating analysis"
+  "sidebar webvisitors webvisitors webvisitors" ;
   text-align: center;
+  background-color: lightgray;
+  padding: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-family:'Courier New', PT Mono Regular;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Sidebar {
+  background-color: darkgray;
+  opacity: 75%;
+  grid-area: sidebar;
+  padding: 20px;
+  margin: 20px;
+  padding-top: 160px                   ;
+   
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Reviews {
+  background-color: darkgray;
+  opacity: 75%;
+  grid-area: reviews;
+  padding: 10px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns:2fr, 1fr;
+  grid-template-rows:1fr, 1fr, 2fr ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Rating {
+  background-color: darkgray;
+  opacity: 75%;
+  grid-area: rating;
+  padding: 20px;
+  margin: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.Analysis{
+  background-color: darkgray;
+  opacity: 75%;
+  grid-area: analysis;
+  padding: 20px;
+  margin: 20px;
 }
+.Webvisitors{
+  background-color: darkgray;
+  opacity: 75%;
+  grid-area: webvisitors;
+  padding: 20px;
+  margin: 20px;
+  display: grid;
+  padding-left: 60px;
+  padding-right: 60px;
+  grid-template-columns: 1fr,1fr;
+}
+.visitors-container{
+  background-color: gray;
+  opacity: 75%;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  font-size: 15px;
+}
+.vis-cont{
+  opacity: 100%;
+  padding-top:-5px;
+  padding-bottom: -5px;
+  display: block;
+  background-color: rgb(179, 194, 255,);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.age{
+  font-size: 15px;
+}
+.email{
+  font-size: 10px;
 }
